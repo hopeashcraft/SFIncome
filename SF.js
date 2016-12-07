@@ -37,7 +37,7 @@ var femaleIncomeColor = d3.scale.threshold()
 var SFProjection = d3.geo.mercator()
    	.center([-122.433701, 37.767683])
     .scale(1400000)
-    .translate([w / 2 - 510, h /2 - 60]);
+    .translate([w / 2 - 300, h /2 - 60]);
     
 
 var femaleSFProjection = d3.geo.mercator()
