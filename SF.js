@@ -42,12 +42,12 @@ var SFProjection = d3.geo.mercator()
 
 var femaleSFProjection = d3.geo.mercator()
    	.center([-122.433701, 37.767683])
-    .scale(50)
+    .scale(140000)
     .translate([w / 2 -60, h / 2 - 60 ]);
 
 var maleSFProjection = d3.geo.mercator()
    	.center([-122.433701, 37.767683])
-    .scale(50)
+    .scale(140000)
     .translate([w / 2 + 390, h / 2 - 60 ]);
                
 // Set up paths
