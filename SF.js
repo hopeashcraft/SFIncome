@@ -249,7 +249,7 @@ d3.csv("SFData.csv", function(data) {
                 tooltip.transition()
                         .duration(20)
                         .style("opacity", .9);
-                  tooltip.html("Average Income: " + Math.round(e.properties.income / 1000) + ",000" +"<br>Female Income: $" + Math.round(e.properties.femaleIncome / 1000) + ",000" +"<br>Male Income: $" + Math.round(e.properties.maleIncome / 1000) + ",000" )
+                  tooltip.html("Average Income: $" + Math.round(e.properties.income / 1000) + ",000" +"<br>Female Income: $" + Math.round(e.properties.femaleIncome / 1000) + ",000" +"<br>Male Income: $" + Math.round(e.properties.maleIncome / 1000) + ",000" )
                         .style("left", (d3.event.pageX + 5) + "px")
                         .style("top", (d3.event.pageY - 28) + "px");})
             .on("mouseout", function(e){
@@ -321,7 +321,7 @@ d3.csv("SFData.csv", function(data) {
                 tooltip.transition()
                         .duration(20)
                         .style("opacity", .9);
-                  tooltip.html("Average Income: " + Math.round(e.properties.income / 1000) + ",000" +"<br>Female Income: $" + Math.round(e.properties.femaleIncome / 1000) + ",000" +"<br>Male Income: $" + Math.round(e.properties.maleIncome / 1000) + ",000" )
+                  tooltip.html("Average Income: $" + Math.round(e.properties.income / 1000) + ",000" +"<br>Female Income: $" + Math.round(e.properties.femaleIncome / 1000) + ",000" +"<br>Male Income: $" + Math.round(e.properties.maleIncome / 1000) + ",000" )
                         .style("left", (d3.event.pageX + 5) + "px")
                         .style("top", (d3.event.pageY - 28) + "px");})
             .on("mouseout", function(e){
